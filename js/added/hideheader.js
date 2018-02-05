@@ -10,8 +10,9 @@ function scrollFunction() {
   } else {
     document.getElementById("navbar").style.top = "0";
   }
-  if (document.body.scrollTop == 0) {
-    document.getElementById("navbar").style.top = "0";
-  }
-  prev = document.body.scrollTop;
+  // if (document.body.scrollTop == 0) {
+  //   document.getElementById("navbar").style.top = "0";
+  // }
+  prev = Math.max(document.body.scrollTop, document.documentElement.scrollTop);
+
 }
