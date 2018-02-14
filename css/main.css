@@ -1121,7 +1121,7 @@ header .logo a {
 	height: 15px;
 	background: url("../images/logo.png") no-repeat center;
 	/*background-size: 92px 15px;*/
-	background-size: 70px;
+	background-size: 90px 25px;
 }
 
 /**
